@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Coming through in waves</title>
+  <meta http-equiv="cache-control" content="no-cache">
+	<script src="jquery-3.4.1.min.js"></script>
+  
+  <script src="waves.js"></script>
+  <link href="waves.css" rel="stylesheet">
+</head>
+<body>
+
+<center>
+<h1>Coming through in waves</h1>
+<font color="#3f888f">
+<canvas id="leinwand" width="800" height="600"><div class="box">
+<p> 
+ <span id="x"></span>
+ </p>
+  <p>
+  <span id="y"></span>
+  </p>
+</div>
+</canvas>
+<br>
+<input type="button" id="give" value="give" style="width:200px" />
+<input type="button" id="talk" value="talk" style="width:200px" />
+
+<audio id="meinsong" loop>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<br>
+
+<div id="punktestand">Points: 0</div> 
+<div id="message"></div>
+<div id="spielendeanzeige">Time over!</div>
+<div id="gameover">Game over</div>
+<p>
+<br>
+Code: Bardon<br>
+Music: Fesliyan
+</font>
+</center>
+</body>
+</html>
